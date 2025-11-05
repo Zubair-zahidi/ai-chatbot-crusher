@@ -1,0 +1,46 @@
+git clone https://github.com/yourusername/ai-flask-assistant.git
+cd ai-flask-assistant
+
+
+<!-- things releted to terminal -->
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+
+
+
+pip install flask flask-cors openai nltk gtts googletrans==4.0.2 requests wikipedia python-dotenv tqdm
+
+
+
+pip freeze > requirements.txt
+
+
+
+
+
+
+pip install -r requirements.txt
+
+
+<!-- important add your api key here -->
+OPENAI_API_KEY=your_openai_api_key_here
+
+
+<!-- 
+
+
+running the project -->
+
+
+
+# activating python env:
+venv/scripts/activate
+
+#runing the project
+python app.py

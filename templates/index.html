@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Crushers | AI Research Assistant</title>
+  <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+  <canvas id="bg"></canvas>
+
+  <div class="chat-app">
+    <header class="header">
+      <div class="brand">
+        <img src="../static/code_crusher.png" alt="Code Crushers Logo" class="logo">
+        <h1>KBS_P2</h1>
+        <span class="subtitle">Smart Research Assistant</span>
+      </div>
+      <button id="themeToggle" title="Toggle Theme">🌙</button>
+    </header>
+
+    <main class="chat-window" id="chatContainer">
+      <div class="message bot">
+        <div class="bubble intro">
+          👋 <strong>Welcome to Code Crushers!</strong><br />
+          I’m your AI research assistant. Ask me anything — I’ll find the
+          best insights for you 🌍
+        </div>
+      </div>
+    </main>
+
+    <footer class="chat-input">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Ask something..."
+        autocomplete="off"
+      />
+      <button id="micBtn" title="Voice Input">🎤</button>
+      <button id="sendBtn">➤</button>
+    </footer>
+  </div>
+
+  <!-- Link external script -->
+  <script src="../static/script.js"></script>
+</body>
+</html>
